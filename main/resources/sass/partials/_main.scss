@@ -1,3 +1,30 @@
-a{
-  color:$maincolor;
+header{
+  background-color: $backgroundcolor;
+  height: 150px;
+  width: 100%;
+  @include flex;
+  div{
+    margin:0 15px;
+    button{
+      background-color: $btncolor;
+      padding:15px;
+      border: none;
+      border-radius: 15px;
+      &:hover{
+        background-color: $btnhovercolor;
+        cursor:pointer;
+      }
+      a{
+        text-decoration: none;
+        color:$maincolor;
+      }
+    }
+  }
+}
+h1{
+  text-align: center;
+  color:$btncolor;
+}
+body{
+  background-color: $backgroundcolor;
 }

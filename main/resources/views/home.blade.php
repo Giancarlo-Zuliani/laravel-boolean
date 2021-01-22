@@ -9,14 +9,14 @@
   <body>
     <header>
       <div class="l_head">
-        <a href="/helloAll">everybody</a>
-        <a href="/helloJenny">Jenny</a>
-        <a href="/helloPaul">Paul</a>
+        <button type="button" name="button"><a href="/helloAll">everybody</a></button>
+        <button type="button" name="button"><a href="/helloJenny">Jenny</a></button>
+        <button type="button" name="button"><a href="/helloPaul">Paul</a></button>
       </div>
       <div class="r_head">
-        <a href="/holaTodos">Todos</a>
-        <a href="/holaRodrigo">Rodrigo Palacio</a>
-        <a href="/holaPablo">Pablo</a>
+        <button type="button" name="button"><a href="/holaTodos">Todos</a></button>
+        <button type="button" name="button"><a href="/holaRodrigo">Rodrigo Palacio</a></button> 
+        <button type="button" name="button"><a href="/holaPablo">Pablo</a></button>
       </div>
     </header>
   </body>

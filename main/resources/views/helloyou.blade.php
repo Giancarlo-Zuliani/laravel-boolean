@@ -7,7 +7,11 @@
     <script src="{{asset('js/app.js')}}" charset="utf-8"></script>
   </head>
   <body>
-    <a href="/">Home</a>
+    <header>
+      <div class="">
+        <button type="button" name="button" href="/"><a >Home</a></button>
+      </div>
+    </header>
     <h1> Hello {{$name}} !</h1>
   </body>
 </html>
