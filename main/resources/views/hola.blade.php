@@ -8,7 +8,7 @@
   </head>
   <header>
     <div class="">
-      <button type="button" name="button"href="/"><a>Home</a></button>
+      <a href="/">Home</a>
     </div>
   </header>
   <h1> Hola {{$name}} !</h1>

@@ -5,18 +5,18 @@ header{
   @include flex;
   div{
     margin:0 15px;
-    button{
+    a{
       background-color: $btncolor;
       padding:15px;
       border: none;
       border-radius: 15px;
+      text-decoration: none;
+      color:$maincolor;
+      width:100%;
+      height:100%;
       &:hover{
         background-color: $btnhovercolor;
         cursor:pointer;
-      }
-      a{
-        text-decoration: none;
-        color:$maincolor;
       }
     }
   }
