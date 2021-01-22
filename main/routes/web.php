@@ -17,7 +17,11 @@ Route::get('/helloJenny',function(){
   view('helloyou', ['name' => 'Jenny']);
 });
 
-Route::get('helloPaul' , function(){
+Route::get('/helloPaul' , function(){
   return
   view('helloyou' , ['name' => 'Paul']);
 });
+
+Route::get('/holaTodos' ,'spain@holaTodos');
+Route::get('/holaRodrigo' , 'spain@holaRodrigo');
+Route::get('/holaPablo' , 'spain@holaPablo');

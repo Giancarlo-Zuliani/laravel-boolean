@@ -14,6 +14,9 @@
         <a href="/helloPaul">Paul</a>
       </div>
       <div class="r_head">
+        <a href="/holaTodos">Todos</a>
+        <a href="/holaRodrigo">Rodrigo Palacio</a>
+        <a href="/holaPablo">Pablo</a>
       </div>
     </header>
   </body>
