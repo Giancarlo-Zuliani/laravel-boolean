@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class spain extends Controller
+class spanish extends Controller
 {
   public function holaTodos(){
     return

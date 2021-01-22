@@ -22,6 +22,6 @@ Route::get('/helloPaul' , function(){
   view('helloyou' , ['name' => 'Paul']);
 });
 
-Route::get('/holaTodos' ,'spain@holaTodos');
-Route::get('/holaRodrigo' , 'spain@holaRodrigo');
-Route::get('/holaPablo' , 'spain@holaPablo');
+Route::get('/holaTodos' ,'spanish@holaTodos');
+Route::get('/holaRodrigo' , 'spanish@holaRodrigo');
+Route::get('/holaPablo' , 'spanish@holaPablo');
